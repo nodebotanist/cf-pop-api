@@ -1,5 +1,4 @@
 let router = require('./router')
-let data = require('./data-centers.json')
 
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
